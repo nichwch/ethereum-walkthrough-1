@@ -2,6 +2,7 @@
  * NB: since truffle-hdwallet-provider 0.0.5 you must wrap HDWallet providers in a 
  * function when declaring them. Failure to do so will cause commands to hang. ex:
  * ```
+torin was here
  * mainnet: {
  *     provider: function() { 
  *       return new HDWalletProvider(mnemonic, 'https://mainnet.infura.io/<infura-key>') 
