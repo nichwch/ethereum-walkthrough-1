@@ -1,0 +1,36 @@
+=============== Oct 21, 2018 (PDT) ===============
+22:49:53.854268 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:49:53.855931 db@open opening
+22:49:53.859293 version@stat F·[] S·0B[] Sc·[]
+22:49:53.859600 db@janitor F·2 G·0
+22:49:53.859630 db@open done T·3.674864ms
+=============== Oct 21, 2018 (PDT) ===============
+23:46:17.724386 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:46:17.725893 version@stat F·[] S·0B[] Sc·[]
+23:46:17.725934 db@open opening
+23:46:17.726024 journal@recovery F·1
+23:46:17.729733 journal@recovery recovering @1
+23:46:17.787426 memdb@flush created L0@2 N·18348 S·512KiB "n:\x00..ail,v57":"version,v1"
+23:46:17.790468 version@stat F·[1] S·512KiB[512KiB] Sc·[0.25]
+23:46:17.794791 db@janitor F·3 G·0
+23:46:17.794832 db@open done T·68.880853ms
+23:47:50.569085 db@close closing
+23:47:50.569429 db@close done T·337.084µs
+=============== Oct 21, 2018 (PDT) ===============
+23:48:15.791790 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:48:15.792124 version@stat F·[1] S·512KiB[512KiB] Sc·[0.25]
+23:48:15.792171 db@open opening
+23:48:15.792298 journal@recovery F·1
+23:48:15.795966 journal@recovery recovering @3
+23:48:15.798934 memdb@flush created L0@5 N·494 S·25KiB "n:\x00..ing,v18671":"n:\xff..ong,v18765"
+23:48:15.802186 version@stat F·[2] S·538KiB[538KiB] Sc·[0.50]
+23:48:15.803634 db@janitor F·4 G·0
+23:48:15.803666 db@open done T·11.468993ms
+23:48:15.808599 table@compaction L0·2 -> L1·0 S·538KiB Q·18844
+23:48:15.819889 table@build created L1@8 N·6294 S·363KiB "n:\x00..ail,v57":"version,v1"
+23:48:15.819947 version@stat F·[0 1] S·363KiB[0B 363KiB] Sc·[0.00 0.00]
+23:48:15.820105 table@compaction committed F-1 S-175KiB Ke·0 D·12548 T·11.463796ms
+23:48:15.820272 table@remove removed @5
+23:48:15.820465 table@remove removed @2
+23:48:22.552024 db@close closing
+23:48:22.552247 db@close done T·220.572µs
